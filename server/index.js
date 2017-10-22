@@ -1,10 +1,9 @@
 
 const express = require('express');
+const path = require('path');
 const app = express();
 
-app.get('/test', function(req, res) {
-	res.send('testing node js server...');
-});
+app.use('/public', express.static(path.join(__dirname, 'public')));
 
 app.listen(3000, function() {
 	console.log('Server listening on port 3000');
