@@ -10,6 +10,23 @@ body {
 	width: 100%;
 }
 
+.bet {
+
+	text-align: center;
+	font-family: sans-serif;
+	width: 100%;
+	margin: 20px auto;
+	border-radius: 10px;
+	box-shadow: 0px 0px 6px -1px rgba(10, 10, 10, 1);
+	background-color: #33cc33
+}
+
+.text {
+	text-align: center;
+	font-size: 1.5em;
+	padding: 15px;
+}
+
 .container > div {
 	width: 40%;
 	margin: 20px auto;
@@ -32,6 +49,10 @@ body {
 
 .container .value {
 	font-size: 2em;
+}
+
+.container .image {
+	width: 50%;
 }
 
 header {

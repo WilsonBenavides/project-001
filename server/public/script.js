@@ -26,10 +26,23 @@ const fetchVisitor = () => {
     })
 }
 
+const fetchApuesta = () => {
+  fetch('/apuesta')
+
+    .then(results => {
+      return results.text()
+    })
+    .then(text => {
+      const apuestaDisplay = document.getElementById('apuesta-display')
+      apuestaDisplay.innerHTML = text
+    })
+}
+
 /*
 Call the above defined functions at regular intervals
 */
 setInterval(() => {
   fetchLocal()
   fetchVisitor()
+  fetchApuesta()
 }, 2000)

@@ -13,6 +13,10 @@ app.get('/visitor', function(req, res) {
 	res.send('<strong>' + "Gallo Cenizo" + '</strong>')
 })
 
+app.get('/apuesta', function(req, res) {
+	res.send('<strong>' + "Valor Apuesta: $1.000.000" + '</strong>')
+})
+
 app.listen(3000, function() {
 	console.log('Server listening on port 3000');
 })
