@@ -6,11 +6,11 @@ const app = express()
 app.use('/public', express.static(path.join(__dirname, 'public')))
 
 app.get('/local', function(req, res) {
-	res.send('<strong>' + 15.6 + '</strong>')
+	res.send('<strong>' + "Gallo de oro" + '</strong>')
 })
 
 app.get('/visitor', function(req, res) {
-	res.send('<strong>' + 66.6 + '</strong>')
+	res.send('<strong>' + "Gallo Cenizo" + '</strong>')
 })
 
 app.listen(3000, function() {

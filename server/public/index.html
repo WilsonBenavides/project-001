@@ -2,12 +2,24 @@
 <html lang="es">
 	<head>
 		<title>Pelea de Gallos</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="style.css" rel="stylesheet">
 	</head>
 	<body>
-		<p>Gallo No 1 :</p>
-		<p id="local-display">Loading cock number 1...</p>
-		<p>Gallo No 2 :</p>
-		<p id="visitor-display">Loading cock number 2...</p>
+		<header>Nombre Gallera Organizadora</header>
+		<div class="container">
+			<div class="local">
+				<p class="title">Gallo No 1 :</p>
+				<p class="value" id="local-display">Loading...</p>		
+				<p class="unit"> %</p>
+			</div>
+			<div class="visitor">
+				<p class="title">Gallo No 2 :</p>
+				<p class="value" id="visitor-display">Loading...</p>		
+				<p class="unit"> %</p>
+			</div>
+		</div>	
 		<script src="script.js"></script>
 	</body>
 </html>
