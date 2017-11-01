@@ -14,7 +14,7 @@ html, body, .container {
 .container div {                   
     	margin: 4px;
     	flex: 1;
-    	background-color: #DC143C;
+    	background-color: #20B2AA;
 }
 
 .container > div:first-child { }
