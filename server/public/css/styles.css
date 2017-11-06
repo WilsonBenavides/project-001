@@ -34,18 +34,29 @@ body {
 }
 
 .grid-item-02 {
+<<<<<<< HEAD
 	background-color: #9BC850;   
 }
 .grid-item-02 .image {
 	width: 25%;
 }
+=======
+	background-color: #9BC850;
+	
+    
+}
+
+>>>>>>> dfcccf8d977aabad5c3ba47a1982e5e07d3e96c9
 .grid-item-03 {
 	background-color: #675BA7;
 }
 
+<<<<<<< HEAD
 .grid-item-03 .image {
 	width: 25%;
 }
+=======
+>>>>>>> dfcccf8d977aabad5c3ba47a1982e5e07d3e96c9
 .grid-item-04 {
 	background-color: #2A9FBC;
    grid-column-start: 1;
@@ -55,16 +66,23 @@ body {
 }
 
 .grid-item-05 {
+<<<<<<< HEAD
 	padding: 0px;
 	margin:  0px;
 	background-color: #F15B2A;
 	grid-column-start: 1;
     grid-column-end: 2;
+=======
+	background-color: #F15B2A;
+	grid-column-start: 1;
+    grid-column-end: 3;
+>>>>>>> dfcccf8d977aabad5c3ba47a1982e5e07d3e96c9
     grid-row-start: 4;
     grid-row-end: 4;
 }
 
 .grid-item-06 {
+<<<<<<< HEAD
 	padding: 0px;
 	margin:  0px;
 	background-color: #675BA7;
@@ -73,4 +91,16 @@ body {
 .grid-item strong {
 	display: block;
 	font-size: 150%;  
+=======
+	background-color: #675BA7;
+}
+
+.grid-item-07 {
+	background-color: #A62E5C;
+}
+
+.grid-item strong {
+	display: block;
+	font-size: 130%;  
+>>>>>>> dfcccf8d977aabad5c3ba47a1982e5e07d3e96c9
 }	
