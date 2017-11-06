@@ -17,30 +17,36 @@
             				
 			<div class="grid-item grid-item-02">
 				<em>Gallera</em>
-				<strong>02</strong> 
+				<strong class="value" id="local-display">Loading...</strong> 
+				<img class="image" src="visitor.png">
 			</div>
             
             <div class="grid-item grid-item-03">
 				<em>Gallera</em>
-				<strong>03</strong> 
+				<strong class="value" id="visitor-display">Loading...</strong> 
+				<img class="image" src="local.png" >
 			</div>
             
             <div class="grid-item grid-item-04">
 				
-				<strong>Apuesta</strong> 
+				<strong class="text" id="apuesta-display">Loading...</strong> 
 			</div>
             
             <div class="grid-item grid-item-05">
 				
-				<strong>Cronómetro</strong> 
+				<div class="stopwatch">
+					<strong>Cronómetro</strong> 
+					<h1 id="timer">00 : 00 . 000</h1>
+				</div>
 			</div>
             
-           <!-- <div class="grid-item grid-item-06">
-				<em>Grid Item</em>
-				<strong>06</strong> 
+            <div class="grid-item grid-item-06">
+				<p>Control by: soluciones telemáticas</p> 
+				<button id="toggle">Start</button>
+				<button id="reset">Reset</button>
 			</div>
             
-            <div class="grid-item grid-item-07">
+           <!-- <div class="grid-item grid-item-07">
 				<em>Grid Item</em>
 				<strong>07</strong> 
 			</div>  -->
@@ -48,5 +54,8 @@
 		</div>
 		
 		<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+	<script src="js/script.js"></script>
+	<script src="js/stopwatch.js"></script>
+	<script src="js/main.js"></script>
 	</body>
 </html>
