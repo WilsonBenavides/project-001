@@ -1,10 +1,51 @@
 html,
 body {
+	background: #282e3a;
+  	font-family: tahoma;
 	padding: 0;
 	margin: 0;
 	height: 100%;
 	width: 100%;
 	font-family: arial, sans-serif;
+}
+
+h1 {
+	font-family: 'Berkshire Swash', cursive;
+	font-size: 50px;	
+	text-align: center;
+  	letter-spacing: 5px;
+	padding: 3px;
+	color: #fff;
+	border-radius: 20px;
+	/*width: 50px;
+	height: 50px;
+	
+	/*float: left;
+	width: 20%;		
+	box-sizing: border-box;
+	background: #2dcb74;
+*/
+}
+
+		.myButton {
+			font-family: 'Berkshire Swash', cursive;
+			color: midnightblue;
+			width: 90px;
+			height: 50px;
+			/*margin-top: 100px;*/
+			border-radius: 6px;
+			border: none;
+			background-color: white;
+			font-size: 16px;
+		}
+
+
+#timer {
+	background: #2dcb74;
+}
+
+#timer2 {
+	background: #26c2b9;
 }
 
 .grid-container {
@@ -28,7 +69,10 @@ body {
 }
 
 .grid-item-01 {
-     background-color: #C7A693;
+	font-family: 'Berkshire Swash', cursive;
+	color: #fff;
+	font-size: 18px;
+
 	border-radius: 25px;
    grid-column: 1 / 4;
     grid-row: 1 / 2;
@@ -63,7 +107,11 @@ body {
 }
 
  .grid-item-06 {
-	background-color: #856046; 
+	margin: 10px;
+	padding: 10px;
+	font-family: 'Berkshire Swash', cursive;
+	color: #fff;
+	font-size: 18px;
 	border-radius: 25px;
 	grid-column: 1 / 4;
 	grid-row: 4 / 5;

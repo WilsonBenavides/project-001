@@ -5,7 +5,10 @@ function Stopwatch(opts) {
 	var offset;
 
 	var elem = opts.elem;
+	var elem2 = opts.elem2;
 	var delay = opts.delay;
+
+
 
 	function update() {
 		if (this.isOn) {
@@ -13,8 +16,11 @@ function Stopwatch(opts) {
 		}
 		
 		var formattedTime = timeFormatter(time);
+		var formattedTimeMin = timeFormatterMin(time);
 		//console.log(formattedTime);
+
 		elem.textContent = formattedTime;
+		elem2.textContent = formattedTimeMin;
 	}
 
 	function delta() {
@@ -42,7 +48,30 @@ function Stopwatch(opts) {
 			milliseconds = '0' + milliseconds;
 		}
 
-		return minutes + ' : ' + seconds + '.' + milliseconds;
+		//return minutes + ' : ' + seconds + '.' + milliseconds;
+		return seconds;
+	}
+
+function timeFormatterMin(timeInImilliseconds) {
+		var time = new Date(timeInImilliseconds);
+		var minutes = time.getMinutes().toString();
+		var seconds = time.getSeconds().toString();
+		var milliseconds = time.getMilliseconds().toString();
+
+		if (minutes.length < 2) {
+			minutes = '0' + minutes;
+		}
+
+		if (seconds.length < 2) {
+			seconds = '0' + seconds;
+		}
+
+		while (milliseconds.length < 3) {
+			milliseconds = '0' + milliseconds;
+		}
+
+		//return minutes + ' : ' + seconds + '.' + milliseconds;
+		return minutes;
 	}
 
 	this.isOn = false;
