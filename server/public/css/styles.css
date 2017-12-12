@@ -10,34 +10,63 @@ body {
 }
 
 h1 {
-	font-family: 'Berkshire Swash', cursive;
+	font-family: 'Berkshire Swash', bold;
 	font-size: 50px;	
 	text-align: center;
   	letter-spacing: 5px;
 	padding: 3px;
 	color: #fff;
-	border-radius: 20px;
-	/*width: 50px;
-	height: 50px;
-	
-	/*float: left;
-	width: 20%;		
-	box-sizing: border-box;
-	background: #2dcb74;
-*/
+	border-radius: 25px;	
 }
 
-		.myButton {
-			font-family: 'Berkshire Swash', cursive;
-			color: midnightblue;
-			width: 90px;
-			height: 50px;
-			/*margin-top: 100px;*/
-			border-radius: 6px;
-			border: none;
-			background-color: white;
-			font-size: 16px;
-		}
+strong  {
+	font-family: 'Berkshire Swash', bold;
+	font-size: 500px;	
+
+	text-align: center;
+}
+
+.bed {
+	font-family: 'Berkshire Swash', bold;
+	font-size: 80px;	
+	text-align: center;
+  	letter-spacing: 0px;
+	padding: 0px;
+	margin: 0px;
+	color: #fff;
+}
+
+.local {
+	font-family: 'Berkshire Swash', cursive;
+	font-size: 50px;	
+	text-align: center;
+  	letter-spacing: 0px;
+	padding: 0px;
+	margin: 0px;
+	color: #282e3a;
+}
+
+.myButton {
+	font-family: 'Berkshire Swash', cursive;
+	color: midnightblue;
+	width: 120px;
+	height: 40px;
+	/*margin-top: 100px;*/
+	border-radius: 6px;
+	border: none;
+	background-color: white;
+	font-size: 26px;
+}
+
+.noFight {
+	font-family: 'Berkshire Swash', cursive;
+	font-size: 35px;	
+	text-align: center;
+  	letter-spacing: 5px;
+	padding: 3px;
+	color: #fff;
+	border-radius: 20px;
+}
 
 
 #timer {
@@ -54,7 +83,7 @@ h1 {
 	height: 100%;
     display: inline-grid;
     grid-template-columns: 40% 20% 40%;
-    grid-template-rows: 10% 35% 23% 25% 7%; 
+    grid-template-rows: 22% 28% 28% 15% 7%; 
     grid-auto-flow: column;
 }
 
@@ -71,8 +100,9 @@ h1 {
 .grid-item-01 {
 	font-family: 'Berkshire Swash', cursive;
 	color: #fff;
-	font-size: 18px;
-
+	font-size: 50px;
+	margin: 0px;
+	padding: 0px;
 	border-radius: 25px;
    grid-column: 1 / 4;
     grid-row: 1 / 2;
@@ -107,11 +137,11 @@ h1 {
 }
 
  .grid-item-06 {
-	margin: 10px;
-	padding: 10px;
+	/*margin: 10px;
+	padding: 10px;*/
 	font-family: 'Berkshire Swash', cursive;
 	color: #fff;
-	font-size: 18px;
+	font-size: 16px;
 	border-radius: 25px;
 	grid-column: 1 / 4;
 	grid-row: 4 / 5;
