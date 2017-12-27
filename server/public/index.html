@@ -12,30 +12,33 @@
 		<div class="grid-container">
 			
 			<div class="grid-item grid-item-01">
-				 <strong>Nombre Gallera Organizadora</strong> 
+				 <strong class="home" id="gallera">Nombre Gallera Organizadora</strong> 
+				<input type="text" id="galleraInput" style="visibility: hidden">
+				<button id="edit3" style="visibility: hidden">Cambiar</button><br />
 			</div>
             				
-			<div class="grid-item grid-item-02">
+			<div class="grid-item grid-item-02" id="cock1Div">
 			
 				 <em>Gallera</em><br />
-				<h1 class="local">Gallo de Oro</h1>
+				<h1 class="local" id="cock1">Gallo de Oro</h1>
+				 <input type="text" id="localRooster" style="visibility: hidden">
+				<button id="edit1" style="visibility: hidden">Cambiar</button><br />
 				<img class="image" src="visitor.png"> 
 			</div>
             
-            <div class="grid-item grid-item-03">
+            <div class="grid-item grid-item-03" >
 		
 			<div class="stopwatch">
-					<h1 id="timer2">00 </h1> 
-					<h1 id="timer">00 </h1>
+					<h1 id="timer2" class="watch">00 </h1> 
+					<h1 id="timer" class="watch">00 </h1>
 				</div> 		
 			</div>
             
-            <div class="grid-item grid-item-04">
-				
-
-
+            <div class="grid-item grid-item-04" id="cock2Div">
 				 <em>Gallera</em>
-				<h1 class="local">Gallo Cenizo</h1>
+				<h1 class="visitor" id="cock2">Gallo Cenizo</h1>
+				<input type="text" id="visitorRooster" style="visibility: hidden">
+				<button id="edit2" style="visibility: hidden">Cambiar</button> <br />
 				<img class="image" src="local.png" >
 			</div>
             
@@ -43,13 +46,19 @@
 				
 				 
 				<button id="toggle" class="myButton">Iniciar</button>
-				<button id="reset" class="myButton">Reiniciar</button> 
-				<h1 class="noFight">Pelea No: 01</h1>
+				<button id="reset" class="myButton">Reiniciar</button> <br /> <br /> 
+				<h1 class="noFight1" style="display:inline;">Pelea No: </h1>
+				<h1 id="fight" class="noFight2" style="display:inline;">01</h1>
+				<input type="text" id="fightNoText" style="visibility: hidden">
+				<button id="fightNoBtn" style="visibility: hidden">Cambiar</button> <br />
 			</div>
             
             <div class="grid-item grid-item-06">
 				
-				 <h1 class="bed">Valor Apuesta: $1.000.000</h1> 
+				 <h1 class="bed1" style="display:inline;">Valor Apuesta: </h1> 
+				 <h1 id="bed" class="bed2" style="display:inline;">$1.000.000</h1> <br />
+				<input type="text" id="bedValue" style="visibility: hidden">
+				<button id="editBed" style="visibility: hidden">Cambiar</button> 
 			</div>
             
             <div class="grid-item grid-item-07">
@@ -58,8 +67,7 @@
 			
 		</div>
 		
-		<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
-	<script src="js/script.js"></script>
+		
 	<script src="js/stopwatch.js"></script>
 	<script src="js/main.js"></script>
 	</body>

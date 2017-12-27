@@ -1,7 +1,7 @@
 /*
 some coding lines
 */
-const fetchLocal = () => {
+/*const fetchLocal = () => {
   fetch('/local')
     .then(results => {
       return results.text()
@@ -15,6 +15,7 @@ const fetchLocal = () => {
 /*
 Make a similar function for cock 2
 */
+/*
 const fetchVisitor = () => {
   fetch('/visitor')
     .then(results => {
@@ -36,13 +37,14 @@ const fetchApuesta = () => {
       const apuestaDisplay = document.getElementById('apuesta-display')
       apuestaDisplay.innerHTML = text
     })
-}
+}*/
 
 /*
 Call the above defined functions at regular intervals
-*/
+
 setInterval(() => {
   fetchLocal()
   fetchVisitor()
   fetchApuesta()
 }, 2000)
+*/

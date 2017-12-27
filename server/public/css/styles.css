@@ -6,39 +6,45 @@ body {
 	margin: 0;
 	height: 100%;
 	width: 100%;
-	font-family: arial, sans-serif;
+	
 }
 
-h1 {
+.bed1, .bed2 {
 	font-family: 'Berkshire Swash', bold;
-	font-size: 50px;	
-	text-align: center;
-  	letter-spacing: 5px;
-	padding: 3px;
-	color: #fff;
-	border-radius: 25px;	
-}
-
-strong  {
-	font-family: 'Berkshire Swash', bold;
-	font-size: 500px;	
-
-	text-align: center;
-}
-
-.bed {
-	font-family: 'Berkshire Swash', bold;
-	font-size: 80px;	
+	font-size: 70px;	
 	text-align: center;
   	letter-spacing: 0px;
 	padding: 0px;
 	margin: 0px;
+
 	color: #fff;
 }
 
-.local {
+.watch {
+	font-family: 'Berkshire Swash', bold;
+	font-size: 80px;	
+	text-align: center;
+  	letter-spacing: 5px;
+	padding: 0px;
+	margin: 10px;
+	color: #fff;
+	border-radius: 25px;	
+}
+
+h1 {
+	font-family: 'Berkshire Swash', bold;
+	/*font-size: 80px;	*/
+	text-align: center;
+  	letter-spacing: 5px;
+	padding: 0px;
+	margin: 10px;
+	color: #fff;
+	border-radius: 25px;	
+}
+
+.local, .visitor {
 	font-family: 'Berkshire Swash', cursive;
-	font-size: 50px;	
+	font-size: 60px;	
 	text-align: center;
   	letter-spacing: 0px;
 	padding: 0px;
@@ -58,14 +64,25 @@ strong  {
 	font-size: 26px;
 }
 
-.noFight {
+.local:hover,  .visitor:hover, .noFight2:hover, .home:hover, .bed2:hover {
+	cursor: pointer;
+}
+
+button:hover {	
+	background-color: #2dcb74;
+	color: #fff;
+	cursor: pointer;
+}
+
+.noFight1, .noFight2 {
 	font-family: 'Berkshire Swash', cursive;
-	font-size: 35px;	
+	font-size: 55px;	
 	text-align: center;
   	letter-spacing: 5px;
 	padding: 3px;
 	color: #fff;
 	border-radius: 20px;
+	margin: 5px;
 }
 
 
@@ -82,8 +99,8 @@ strong  {
 	width: 100%;
 	height: 100%;
     display: inline-grid;
-    grid-template-columns: 40% 20% 40%;
-    grid-template-rows: 22% 28% 28% 15% 7%; 
+    grid-template-columns: 34% 32% 34%;
+    grid-template-rows: 21% 32% 23% 18% 6%; 
     grid-auto-flow: column;
 }
 
@@ -100,7 +117,8 @@ strong  {
 .grid-item-01 {
 	font-family: 'Berkshire Swash', cursive;
 	color: #fff;
-	font-size: 50px;
+	font-size: 45px;
+	/*font-size: 300%;  */
 	margin: 0px;
 	padding: 0px;
 	border-radius: 25px;
